@@ -1,0 +1,364 @@
+/*FONT STYLE*/
+
+/*Wensley-Regular */
+@font-face {
+    font-family: 'Wensley';
+    src: url('/src/wensley-modern-serif-font-family/Web\ Font\ Kit/Wensley-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+/*Wensley-Light */
+@font-face {
+    font-family: 'Wensley';
+    src: url('/src/wensley-modern-serif-font-family/Web\ Font\ Kit/Wensley-Light.woff') format('woff');
+    font-style: normal;
+    font-weight: lighter;
+    text-rendering: optimizeLegibility;
+}
+/*Wensley-Bold */
+@font-face {
+    font-family: 'Wensley';
+    src: url('/src/wensley-modern-serif-font-family/Web\ Font\ Kit/Wensley-Bold.woff') format('woff');
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+/*START PROJECT*/
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(234, 234, 234, 1);
+    color: rgba(0, 0, 0, 1);
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+.head {
+    margin: auto;
+    max-width: 1440px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+}
+.navbar-contain {
+    box-shadow: 3px 3px 5px rgb(211, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 10px 44px;
+    background-color: rgba(234, 234, 234, 1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: .8;
+}
+.logo {
+    width: 95px;
+    height: 40px;
+    margin-left: 36px;
+}
+.navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+.nav-item {
+    list-style: none;
+    padding: 0 24px;
+}
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+.navigate a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: 'Wensley';
+}
+.cart {
+    background-color: #000;
+    padding: 12px 16px;
+    width: 92px;
+    text-align: center;
+}
+.cart a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    font-family: 'Wensley';
+}
+/*HERO COVER*/
+.hero {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.head-side {
+    max-width: 609px;
+    max-height: 646px;
+    z-index: 100;
+    margin-top: -100px;
+}
+.head-line {
+    width: 609px;
+    font-family: 'Wensley';
+    font-size: 9rem;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+    margin: 30px 0;
+}
+.head-title {
+    height: 237px;
+    max-width: 590px;
+    font-family: 'Wensley';
+    font-size: 4.5rem;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: -4%;
+}
+.head-subtitle {
+    width: 488px;
+    height: 38px;
+    font-family: 'Wensley';
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    margin: 24px 0;
+    opacity: .7;
+}
+.gif-contain {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: -150px;
+    height: 1014px;
+    width: 781px;
+    max-width: 1440px;
+}
+.gif-contain .side1 img {
+    position: absolute;
+    width: 407px;
+    height: 660px;
+    margin-top: 50px;
+}
+.gif-contain .side2 img {
+    position: absolute;
+    width: 374px;
+    height: 497px;
+    top: 117px;
+    left: 374px;
+}
+/*SECTION 1*/
+.section1 {
+    max-height: 900px;
+    margin: 120px 0;
+    position: relative;
+}
+.img1 img{
+    height: 600px;
+    background-size: cover;
+    object-fit: cover;
+}
+.header1 {
+    position: absolute;
+    left: 80px;
+    top: 550px;
+    width: 738px;
+    height: 260px;
+    font-family: 'Wensley';
+    font-size: 9rem;
+    font-weight: 400;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+}
+.card1 {
+    background-color: rgba(234, 234, 234, 1);
+    position: absolute;
+    height: 500px;
+    left: 816px;
+    top: 400px;
+    width: 500px;
+    height: 544px;
+    padding: 40px 40px 203px 40px;
+}
+.card1 span {
+    width: 464px;
+    height: 140px;
+    font-family: 'Wensley';
+    font-size: 4rem;
+    line-height: 70.4px;
+    letter-spacing: -4%;
+}
+.card1 p {
+    font-family: 'Wensley';
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+    opacity: .7;
+    margin-top: 24px;
+    height: 93px;
+}
+/*SECTION 2*/
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1440px;
+}
+.section2 .card {
+    width: 366px;
+    height: 714px;
+    margin: 116px auto 70px auto;
+}
+.section2 .card:nth-child(2) {
+    margin-top: 52px;
+}
+.section2 .title {
+    width: 366px;
+    height: 110px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+.title span {
+    display: block;
+    margin-bottom: 16px;
+    font-family: 'Wensley';
+    font-size: 2.2rem;
+    line-height: 110%;
+    letter-spacing: -4%;
+}
+.title a {
+    color: #000;
+}
+/*SECTION 3*/
+.section3 {
+    height: 603px;
+    position: relative;
+}
+.section3-header {
+    display: flex;
+    justify-content: space-between;
+}
+.section3-header span {
+    margin-left: 80px;
+    margin-top: 16px;
+    width: 783px;
+    height: 260px;
+    font-family: 'Wensley';
+    font-size: 9rem;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+}
+.section3-header p {
+    width: 370px;
+    height: 124px;
+    margin-top: 53px;
+    margin-right: 80px;
+    font-family: 'Wensley';
+    font-size: 1.5rem;
+    line-height: 130%;
+    letter-spacing: -0.04em;
+}
+.section3-images {
+    position: absolute;
+    top: 230px;
+    height: 373px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -100;
+}
+/*FOOTER*/
+.foot {
+    margin: 106px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.foot-logo {
+    margin-left: 80px;
+    z-index: 200;
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 122px;
+    z-index: 200;
+}
+.information > div {
+    width: 196px;
+    height: 141px;
+    margin-right: 20px;
+}
+.information div:last-child {
+    margin-right: 0;
+}
+.information p {
+    font-family: 'Wensley';
+    font-weight: 700;
+}
+.information div ul {
+    margin-top: 20px;
+}
+.information div li {
+    padding: 10px 0;
+    list-style: none;
+}
+.information li a {
+    font-family: 'Wensley';
+    text-decoration: none;
+    color: #000;
+    opacity: .7;
+}
+.subscribe {
+    margin-right: 80px;
+    width: 413px;
+    height: 92px;
+    z-index: 200;
+    position: relative;
+}
+.subscribe p {
+    font-family: 'Wensley';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
+.subscribe #email {
+    padding: 6px 8px;
+    outline: none;
+    width: 293px;
+    height: 48px;
+}
+.subscribe #submit {
+    cursor: pointer;
+    position: absolute;
+    margin-left: -35px;
+    outline: none;
+    padding: 6px 8px;
+    background-color: #000;
+    color: #fff;
+    width: 120px;
+    height: 48px;
+}
